@@ -1,0 +1,15 @@
+import scanner.java.*util
+public class Calculator
+{
+public static void main(String[] args)
+{
+System.out.println("Welcome to our calc application");
+Scanner sc = new Scanner(System.in);
+int a = sc.nectInt();
+System.out.println("please enter you first number");
+int b = sc.nextInt();
+System.out.println("please enter your second number");
+int c = a+b;
+System.out.println("The addition of both the number is:"+c);
+}
+]
