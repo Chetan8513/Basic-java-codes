@@ -1,0 +1,29 @@
+public class CountString
+{
+    public static void main (String[] args) {
+
+
+        //lets count the striing valu
+
+        String name = "chetan";
+        int count = 0 ;
+
+        for(int i=0 ; i<name.length();i++)
+        {
+
+            if(name.charAt(i)!=' ')
+// i facing this issue ' ' forget to upload space 
+                count++;
+        }
+
+    System.out.println(count);
+
+
+
+
+
+    }
+
+
+
+    }
