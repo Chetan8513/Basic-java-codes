@@ -1,0 +1,42 @@
+public class BaseCode
+{
+Public static void main (String[] agrs)
+{
+    int a = 10;
+        int b = 10;
+        boolean check;
+
+        check  = a==b;
+
+            System.out.println("both are same datatype "    +       check);
+}
+}
+
+package test;
+
+public class CodeBase {
+
+    public static void main(String[] args) {
+
+
+        int a = 10;
+        int b = 21;
+
+        if(a==b){
+            int add = a+b;
+            System.out.println("if number  are same number will be :"+add);
+
+         }else{
+            int add = a-b;
+            System.out.println("if numbers are not same then the numbers wll be:"+add);
+
+        }
+
+        }
+
+
+    }
+
+
+
+
